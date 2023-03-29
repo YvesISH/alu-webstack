@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
-# script to config domain zone to point to load balancer
-# add more subdomains and display info about them
+# Script to config domain zone to point to load balancer
 
 domain=$1
 if [ "$#" -eq 2 ]; then
